@@ -50,7 +50,7 @@ def strassen(x, y):
 
 if __name__=='__main__':
 	'''
-	This works only with powers of 2
+	This works only with matrixes which size in powers of 2
 	'''
 
 	A = np.random.randint(-100, 100, (512, 512))
